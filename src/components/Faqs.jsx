@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import FAQ from "../assets/faqbg.png";
 
 const faqs = [
     {
@@ -31,7 +32,7 @@ export default function Faqs() {
     return (
         <section
             style={{
-                backgroundImage: "url('src/assets/faqbg.png')",
+                backgroundImage: `url(${FAQ})`,
                 backgroundSize: "cover",
                 backgroundPosition: "center",
             }}
@@ -43,7 +44,7 @@ export default function Faqs() {
                 <div className="flex justify-center lg:justify-start">
 
                     <img
-                        src="src/assets/image 903.png"
+                        src={FAQ}
                         alt="FAQ"
                         className="rounded-2xl max-w-full lg:max-w-md"
                     />

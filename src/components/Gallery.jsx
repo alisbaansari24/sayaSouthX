@@ -1,5 +1,9 @@
 import React from "react";
-
+import img1 from "../assets/image 936.png";
+import img2 from "../assets/image 937.png";
+import img3 from "../assets/image 935.png";
+// import img4 from "../assets/image 938.png";
+import img5 from "../assets/image 936.png";
 export default function Gallery() {
   return (
     <section className="px-6 sm:px-10 lg:px-20 py-14 bg-white">
@@ -16,7 +20,7 @@ export default function Gallery() {
 
         <div className="lg:col-span-2">
           <img
-            src="src/assets/image 936.png"
+            src={img1}
             alt=""
             className="w-full h-[220px] lg:h-[260px] object-cover rounded-2xl"
           />
@@ -24,7 +28,7 @@ export default function Gallery() {
 
         <div className="lg:col-span-2">
           <img
-            src="src/assets/image 937.png"
+            src={img2}
             alt=""
             className="w-full h-[220px] lg:h-[260px] object-cover rounded-2xl"
           />
@@ -32,7 +36,7 @@ export default function Gallery() {
 
         <div className="lg:col-span-2 lg:row-span-2">
           <img
-            src="src/assets/image 935.png"
+            src={img3}
             alt=""
             className="w-full h-[320px] lg:h-[540px] object-cover rounded-2xl"
           />
@@ -40,7 +44,7 @@ export default function Gallery() {
 
         <div>
           <img
-            src="src/assets/image 937.png"
+            src={img2}
             alt=""
             className="w-full h-[160px] lg:h-[250px] object-cover rounded-2xl"
           />
@@ -48,7 +52,7 @@ export default function Gallery() {
 
         <div>
           <img
-            src="src/assets/image 937.png"
+            src={img2}
             alt=""
             className="w-full h-[160px] lg:h-[250px] object-cover rounded-2xl"
           />
@@ -56,7 +60,7 @@ export default function Gallery() {
 
         <div className="lg:col-span-2">
           <img
-            src="src/assets/image 936.png"
+            src={img1}
             alt=""
             className="w-full h-[220px] lg:h-[260px] object-cover rounded-2xl"
           />

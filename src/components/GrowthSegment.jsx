@@ -1,6 +1,9 @@
 import React from 'react'
 import { IoIosArrowForward } from "react-icons/io";
 import { IoIosArrowBack } from "react-icons/io";
+import grwth from "../assets/logo-south-x 1.png";
+import grwth1 from "../assets/Mask group.png";
+import grwth2 from "../assets/Mask group (1).png";
 
 export default function GrowthSegment() {
   return (
@@ -11,7 +14,7 @@ export default function GrowthSegment() {
         <div className="lg:w-7/12 space-y-8">
           <div className="space-y-4">
             <img
-              src="src/assets/logo-south-x 1.png"
+              src={grwth}
               className="w-30 sm:w-36"
               alt="Saya South X"
             />
@@ -80,7 +83,7 @@ export default function GrowthSegment() {
   <div>
     <div className="w-full rounded-t-xl overflow-hidden bg-[#F3F3F3]">
       <img
-        src="src/assets/Mask group.png"
+        src={grwth1}
         alt="Families"
         className="w-full h-[220px] object-cover"
       />
@@ -94,7 +97,7 @@ export default function GrowthSegment() {
   <div>
     <div className="w-full rounded-t-xl overflow-hidden bg-[#F3F3F3]">
       <img
-        src="src/assets/Mask group (1).png"
+        src={grwth2}
         alt="Building"
         className="w-full h-[220px] object-cover"
       />

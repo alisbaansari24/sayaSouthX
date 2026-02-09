@@ -2,6 +2,7 @@ import React, { useState } from 'react'
 import { IoMdCall } from "react-icons/io"
 import { FaWhatsapp } from "react-icons/fa"
 import { RxHamburgerMenu } from "react-icons/rx"
+import logo from '../assets/logo.png';
 
 export default function Header() {
     const [open, setOpen] = useState(false)
@@ -13,7 +14,7 @@ export default function Header() {
 
                 <a href="/">
                     <img
-                        src="src/assets/logo.png"
+                        src={logo}
                         alt="Logo"
                         className="w-20 cursor-pointer"
                     />

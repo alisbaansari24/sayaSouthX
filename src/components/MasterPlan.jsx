@@ -1,5 +1,6 @@
 import React, { useState } from "react";
-
+import MasterPlanX from "../assets/image 932.png";
+import FloorPlan from "../assets/image 933.png";
 export default function MasterPlan() {
     const [unit, setUnit] = useState("UNIT 1");
 
@@ -14,9 +15,9 @@ export default function MasterPlan() {
 
                     <div className="rounded-md overflow-hidden bg-white">
                         <img
-                            src="src/assets/image 932.png"
+                            src={MasterPlanX}
                             alt="Master Plan"
-                            className="w-full h-[430px] ob  ject-cover"
+                            className="w-full h-[430px] object-cover"
                         />
                     </div>
                 </div>
@@ -51,7 +52,7 @@ export default function MasterPlan() {
                                 className="bg-white p-5 sm:p-8 flex flex-col sm:flex-row gap-4 sm:gap-6 items-start sm:items-center justify-between"
                             >
                                 <img
-                                    src="src/assets/image 933.png"
+                                    src={FloorPlan}
                                     alt="Floor Plan"
                                     className="w-28 sm:w-36 object-contain mx-auto sm:mx-0"
                                 />

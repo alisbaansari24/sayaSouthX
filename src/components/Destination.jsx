@@ -1,6 +1,7 @@
 import React from 'react'
 import { BsArrowUpRightCircle } from "react-icons/bs";
 import { FaPlay } from "react-icons/fa6";
+import Saya from "../assets/Frame 106115.png";
 
 
 export default function Destination() {
@@ -38,7 +39,7 @@ export default function Destination() {
                     <div className="relative w-full max-w-4xl lg:max-w-6xl xl:max-w-7xl mx-auto">
 
                         <img
-                            src="src/assets/Frame 106115.png"
+                            src={Saya}
                             alt="Saya"
                             className="w-full object-cover"
                         />

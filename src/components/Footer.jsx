@@ -7,7 +7,8 @@ import {
     FaYoutube,
     FaXTwitter,
 } from "react-icons/fa6";
-
+import FooterLogo from "../assets/footer.png";
+import GoogleLogo from "../assets/ggle.png";
 export default function Footer() {
     return (
         <footer className="bg-[#243B6B] text-white p-6">
@@ -15,7 +16,7 @@ export default function Footer() {
                 <div className="max-w-7xl mx-auto px-6 pb-4 flex flex-col lg:flex-row lg:items-center lg:justify-between gap-6">
                     <div>
                         <div className="text-3xl font-bold tracking-wide">
-                            <img src="src/assets/footer.png" alt="Logo" className="w-24" />
+                            <img src={FooterLogo} alt="Logo" className="w-24" />
                         </div>
                     </div>
                     <h3 className="text-2xl font-bold mt-1">Say Hello To What's Next</h3>
@@ -75,7 +76,7 @@ export default function Footer() {
                 <div className="flex flex-col items-start gap-6 bg-white px-2 md:px-4 py-2 h-36 rounded-2xl">
                     <div className="flex items-center  bg-white text-[#243B6B] rounded-4xl px-4 sm:px-5 py-3 sm:py-2 w-full max-w-xs shadow-sm">
                         <img
-                            src="src/assets/ggle.png"
+                            src={GoogleLogo}
                             alt="Google Logo"
                             className="w-8 h-8 object-contain"
                         />

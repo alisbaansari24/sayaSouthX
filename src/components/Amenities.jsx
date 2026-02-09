@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { IoIosArrowUp, IoIosArrowForward } from "react-icons/io";
 import { IoIosArrowRoundUp } from "react-icons/io";
 import { GoArrowUpRight } from "react-icons/go";
+import AmenitiesImg from "../assets/image 915.png";
 
 export default function Amenities() {
     const [open, setOpen] = useState("Ample Parking");
@@ -85,7 +86,7 @@ export default function Amenities() {
                     </div>
                     <div className="relative">
                         <img
-                            src="src/assets/image 915.png"
+                            src={AmenitiesImg}
                             alt="Amenities"
                             className="w-full h-[420px] object-cover rounded-3xl"
                         />

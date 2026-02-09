@@ -1,10 +1,11 @@
 import React from 'react'
+import imgsection from "../assets/image 907.png";
 
 export default function ImageSection() {
     return (
         <div>
             <div>
-                <img src="src/assets/image 907.png" alt="" className='w-auto h-auto' />
+                <img src={imgsection} alt="" className='w-auto h-auto' />
             </div>
             <div className="w-full shadow-md">
                 <div className="max-w-7xl mx-auto px-4 py-3 flex items-center gap-4">

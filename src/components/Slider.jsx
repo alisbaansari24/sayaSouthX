@@ -1,16 +1,21 @@
 import React, { useRef } from "react";
 import { IoIosArrowForward, IoIosArrowBack } from "react-icons/io";
-
+import brand1 from "../assets/image 56.png";
+import brand2 from "../assets/logo (5).png";
+import brand3 from "../assets/image 56 (4).png";
+import brand4 from "../assets/image 56 (5).png";
+import brand5 from "../assets/image 56 (6).png";
+import brand6 from "../assets/image 56 (7).png";        
 export default function Slider() {
   const sliderRef = useRef(null);
 
   const brands = [
-    { name: "Cinépolis", src: "src/assets/image 56.png" },
-    { name: "Sunburn", src: "src/assets/logo (5).png" },
-    { name: "Badami's", src: "src/assets/image 56 (4).png" },
-    { name: "McDonald's", src: "src/assets/image 56 (5).png" },
-    { name: "MOB", src: "src/assets/image 56 (6).png" },
-    { name: "Castle's Barbeque", src: "src/assets/image 56 (7).png" },
+    { name: "Cinépolis", src: brand1 },
+    { name: "Sunburn", src: brand2 },
+    { name: "Badami's", src: brand3 },
+    { name: "McDonald's", src: brand4 },
+    { name: "MOB", src: brand5 },
+    { name: "Castle's Barbeque", src: brand6 },
   ];
 
   const scrollLeft = () => {
