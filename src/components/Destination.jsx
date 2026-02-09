@@ -5,9 +5,9 @@ import { FaPlay } from "react-icons/fa6";
 
 export default function Destination() {
     return (
-        <div className='p-6'>
-            <div className="px-4 sm:px-6 lg:px-16 py-2 md:py-0 space-y-10">
-                <div className='bg-[#22356CDB] rounded-2xl text-white px-6 sm:px-10 py-14 max-w-6xl mx-auto'>
+        <div className='p-2 md:p-6 '>
+            <div className="px-1 sm:px-6 lg:px-16 py-2 md:py-0 space-y-10">
+                <div className='bg-[#22356CDB] rounded-2xl text-white px-6 sm:px-10 py-14 max-w-full mx-auto'>
                     <h2 className="text-xl sm:text-2xl lg:text-3xl font-semibold">
                         An Uber Luxury High Street Retail Destination
                     </h2>
@@ -22,7 +22,7 @@ export default function Destination() {
                     </p>
                     <button className="mt-6 flex items-center gap-2 font-semibold bg-[#F6883E] hover:bg-orange-600 transition text-white px-5 py-2 rounded-full text-sm">
                         Read More
-                        <BsArrowUpRightCircle className="text-white font-bold " />
+                        <BsArrowUpRightCircle className="fill-white" size={18} />
                     </button>
                 </div>
 
@@ -35,12 +35,12 @@ export default function Destination() {
                         </button>
                     </div>
 
+                    <div className="relative w-full max-w-4xl lg:max-w-6xl xl:max-w-7xl mx-auto">
 
-                    <div className="rounded-2xl overflow-hidden shadow-lg">
                         <img
                             src="src/assets/Frame 106115.png"
                             alt="Saya"
-                            className="w-auto h-[220px] sm:h-[320px] lg:h-[420px] object-cover"
+                            className="w-full object-cover"
                         />
 
 
