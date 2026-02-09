@@ -7,8 +7,8 @@ export default function Slider() {
         { name: "Sunburn", src: "src/assets/logo (5).png" },
         { name: "Badami's", src: "src/assets/image 56 (4).png" },
         { name: "McDonald's", src: "src/assets/image 56 (5).png" },
-        { name: "MOB", src: "/brands/mob.svg" },
-        { name: "Castle's Barbeque", src: "/brands/castles.svg" },
+        { name: "MOB", src: "src/assets/image 56 (6).png" },
+        { name: "Castle's Barbeque", src: "src/assets/image 56 (7).png" },
     ];
 
     return (
@@ -22,7 +22,7 @@ export default function Slider() {
                                 key={brand.name}
                                 src={brand.src}
                                 alt={brand.name}
-                                className="mx-auto h-10 object-contain  hover:grayscale-0 transition max-w-2xl"
+                                className="mx-auto h-10 object-contain  hover:grayscale-0 transition max-w-3xl"
                             />
                         ))}
                     </div>

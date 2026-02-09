@@ -38,9 +38,9 @@ export default function Destination() {
 
                     <div className="rounded-2xl overflow-hidden shadow-lg">
                         <img
-                            src="src/assets/Rectangle 45138.png"
+                            src="src/assets/Frame 106115.png"
                             alt="Saya"
-                            className="w-full h-[220px] sm:h-[320px] lg:h-[420px] object-cover"
+                            className="w-auto h-[220px] sm:h-[320px] lg:h-[420px] object-cover"
                         />
 
 
