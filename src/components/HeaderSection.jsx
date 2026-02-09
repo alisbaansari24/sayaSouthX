@@ -1,14 +1,15 @@
-import React, { useState } from 'react'
+ 
+ import React, { useState } from 'react'
 import { IoMdCall } from "react-icons/io"
 import { FaWhatsapp } from "react-icons/fa"
 import { RxHamburgerMenu } from "react-icons/rx"
 import logo from '../assets/logo.png';
 
-export default function Header() {
+export default function HeaderSection() {
     const [open, setOpen] = useState(false)
 
     return (
-        <header className="p-6 bg-white border-b border-gray-100">
+        <div className="p-6 bg-white border-b border-gray-100">
             <div className="flex justify-between items-center">
 
 
@@ -61,6 +62,6 @@ export default function Header() {
                     </ul>
                 </div>
             )}
-        </header>
+        </div>
     )
 }

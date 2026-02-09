@@ -4,7 +4,7 @@ import viteLogo from '/vite.svg'
 import './App.css'
 import React from 'react'
 import { Routes } from 'react-router-dom'
-import Header from './components/header'
+
 import Navbar from './components/Navbar'
 import Hero from './components/Hero'
 import ImageSection from './components/ImageSection'
@@ -21,6 +21,7 @@ import Location from './components/Location'
 import DownloadBrochure from './components/DownloadBrochure'
 import RequestCallBack from './components/RequestCallBack'
 import Footer from './components/Footer'
+import HeaderSection from './components/HeaderSection'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -28,7 +29,7 @@ function App() {
   return (
 
     <div>
-      <Header />
+      <HeaderSection />
       <Navbar />
       <Hero />
       <ImageSection />
